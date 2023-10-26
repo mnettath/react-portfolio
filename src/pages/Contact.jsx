@@ -4,10 +4,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Contact = () => {
   return (
-    <>
+    <form className="my-3 mx-3 col-md-6 contact-form">
+      <h3>Contact</h3>
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
-          Name
+          Name:
         </label>
         <input
           type="name"
@@ -17,18 +18,17 @@ const Contact = () => {
       </div>
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
-          Email address
+          Email address:
         </label>
         <input
           type="email"
           className="form-control"
           id="exampleFormControlInput2"
-          placeholder="name@example.com"
         />
       </div>
-      <div className="mb-3">
+      <div className= "mb-3">
         <label htmlFor="exampleFormControlTextarea1" className="form-label">
-          Example textarea
+          Message:
         </label>
         <textarea
           className="form-control"
@@ -36,12 +36,9 @@ const Contact = () => {
           rows="3"
         ></textarea>
       </div>
-    </>
+      <button type="button" class="btn btn-light">Submit</button>
+      </form>
   );
 };
-
-// Name
-// Email
-// Message
 
 export default Contact;

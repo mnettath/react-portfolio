@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Header />
-
-      <Outlet />
-      {/* Outlet should bring in the children: About, Portfolio, Resume, Contact */}
-
+      <div className="d-flex align-items-left justify-content-left vh-100">
+        <Outlet />
+        {/* Outlet should bring in the children: About, Portfolio, Resume, Contact */}
+      </div>
       <Footer />
     </>
   );

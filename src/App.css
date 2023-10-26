@@ -1,25 +1,31 @@
 .navbar,
 .footer,
 .navbar-brand {
-  background-color: #231942;
+  background-color: #5e548e;
   font-size: 1.5rem;
 }
 
 /* Target the active link within the navbar */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #e0b1cb; 
+  color: #e0b1cb;
 }
 
 /* Target all links within the navbar */
 .navbar-nav .nav-link {
-  color: white; 
+  color: white;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: white;
 }
 
+.contact-form {
+  color: white;
+}
+#root {
+  background-color: #231942;
+}
 
 .footer-icon {
   padding-right: 10px;
