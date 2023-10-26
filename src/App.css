@@ -5,6 +5,17 @@
   font-size: 1.5rem;
 }
 
+/* Target the active link within the navbar */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #e0b1cb; /* Your custom color for active links */
+}
+
+/* Target all links within the navbar */
+.navbar-nav .nav-link {
+  color: white; /* Your custom color for inactive links */
+}
+
 .footer-icon {
   padding-right: 10px;
   padding-left: 10px;

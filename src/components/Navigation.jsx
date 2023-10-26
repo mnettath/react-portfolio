@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -11,7 +11,7 @@ function NavTabs() {
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === '/' ? 'nav-link active text-white' : 'nav-link text-white'}
+          className={currentPage === "/" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
@@ -20,7 +20,9 @@ function NavTabs() {
         <Link
           to="/portfolio"
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Blog' ? 'nav-link active text-white' : 'nav-link text-white'}
+          className={
+            currentPage === "/portfolio" ? "nav-link active" : "nav-link"
+          }
         >
           Portfolio
         </Link>
@@ -29,7 +31,7 @@ function NavTabs() {
         <Link
           to="/resume"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active text-white' : 'nav-link text-white'}
+          className={currentPage === "/resume" ? "nav-link active" : "nav-link"}
         >
           Resume
         </Link>
@@ -38,7 +40,9 @@ function NavTabs() {
         <Link
           to="/contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active text-white' : 'nav-link text-white'}
+          className={
+            currentPage === "/contact" ? "nav-link active" : "nav-link"
+          }
         >
           Contact
         </Link>
