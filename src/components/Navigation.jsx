@@ -5,8 +5,8 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
+    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <li className="nav-item">
         <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"

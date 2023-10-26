@@ -1,7 +1,12 @@
-.navbar {
+.navbar,
+.footer,
+.navbar-brand {
   background-color: #231942;
+  font-size: 1.5rem;
 }
 
-.aboutPhoto {
-  width: 25%;
+.footer-icon {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
 }
