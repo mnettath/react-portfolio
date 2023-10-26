@@ -8,36 +8,75 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const [nameRequired, setNameRequired] = useState("");
+  const [emailRequired, setEmailRequired] = useState("");
+  const [messageRequired, setMessageRequired] = useState("");
+
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+    const { name, value } = e.target;
 
     setSuccessMessage("");
+    setErrorMessage("");
 
-    if (inputType === "name") {
-      setName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "message") {
-      setMessage(inputValue);
+    if (name === "name") {
+      setName(value);
+    } else if (name === "email") {
+      setEmail(value);
+    } else if (name === "message") {
+      setMessage(value);
+    }
+  };
+
+  const handleBlur = (e) => {
+    const { name, value } = e.target;
+    switch (name) {
+      case "name":
+        setNameRequired(value.length === 0);
+        break;
+      case "email":
+        setEmailRequired(value.length === 0);
+        break;
+      case "message":
+        setMessageRequired(value.length === 0);
+        break;
+      default:
+        break;
     }
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail) {
+    if (!validateEmail(email)) {
       setErrorMessage("Please input valid email address");
       setSuccessMessage("");
       return;
-    } else {
-      setErrorMessage("");
-      setSuccessMessage("Contact form was submitted successfully! ");
     }
+
+    if (name === "") {
+      setNameRequired(true);
+    }
+    if (email === "") {
+      setEmailRequired(true);
+    }
+    if (message === "") {
+      setMessageRequired(true);
+    }
+
+    if (name === "" || email === "" || message === "") {
+      return;
+    }
+
+    setErrorMessage("");
+    setSuccessMessage("Contact form was submitted successfully! ");
+
+    setNameRequired(false);
+    setEmailRequired(false);
+    setMessageRequired(false);
 
     setName("");
     setEmail("");
@@ -58,10 +97,14 @@ const Contact = () => {
           value={name}
           name="name"
           onChange={handleInputChange}
-          type="name"
+          onBlur={handleBlur}
+          type="text"
           className="form-control"
           id="exampleFormControlInput1"
         />
+        {nameRequired && (
+          <p className="error-text">Name is a required field.</p>
+        )}
       </div>
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
@@ -71,10 +114,14 @@ const Contact = () => {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleBlur}
           type="email"
           className="form-control"
           id="exampleFormControlInput2"
         />
+        {emailRequired && (
+          <p className="error-text">Email is a required field.</p>
+        )}
       </div>
       <div className="mb-3">
         <label htmlFor="exampleFormControlTextarea1" className="form-label">
@@ -84,11 +131,15 @@ const Contact = () => {
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="message"
+          onBlur={handleBlur}
+          type="text"
           className="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
         ></textarea>
+        {messageRequired && (
+          <p className="error-text">Message is a required field.</p>
+        )}
       </div>
       <button type="submit" className="btn btn-light mb-2">
         Submit
