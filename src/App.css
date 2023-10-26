@@ -8,13 +8,18 @@
 /* Target the active link within the navbar */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #e0b1cb; /* Your custom color for active links */
+  color: #e0b1cb; 
 }
 
 /* Target all links within the navbar */
 .navbar-nav .nav-link {
-  color: white; /* Your custom color for inactive links */
+  color: white; 
 }
+
+.navbar-toggler{
+  background-color: white;
+}
+
 
 .footer-icon {
   padding-right: 10px;
