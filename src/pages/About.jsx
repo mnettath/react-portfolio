@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-3 mx-3">
+    <div className="mt-3 mx-3 vh-100">
       <h3 className="mb-3">About Me</h3>
       <img
         src="src\assets\Maya_Profile.jpg"

@@ -6,8 +6,8 @@ const Portfolio = () => {
   return (
     <div className="container mt-3 mb-3 mx-3">
       <h3 className="mb-3">Portfolio</h3>
-      <div className="row gy-3">
-        <div className="col-xs-6 col-s- col-md-4 col-lg-3">
+      <div className="row gy-5">
+        <div className="col-sm-6 col-s- col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -26,7 +26,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -45,7 +45,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -64,7 +64,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -83,7 +83,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -102,7 +102,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-md-4 col-lg-3">
+        <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "14rem", height: "23rem" }}>
             <img
               src="https://images.unsplash.com/photo-1599009434802-ca1dd09895e7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

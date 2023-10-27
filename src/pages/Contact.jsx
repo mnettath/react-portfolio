@@ -85,7 +85,7 @@ const Contact = () => {
 
   return (
     <form
-      className="my-4 mx-3 col-md-6 contact-form"
+      className="my-4 mx-3 col-md-6 vh-100 contact-form"
       onSubmit={handleFormSubmit}
     >
       <h3>Contact</h3>
