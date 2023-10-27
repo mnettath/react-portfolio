@@ -5,14 +5,12 @@
   font-size: 1.5rem;
 }
 
-/* Target the active link within the navbar */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   color: #e0b1cb;
 }
 
-/* Target all links within the navbar */
-.navbar-nav .nav-link {
+.navbar-nav .nav-link, h3, .about-text {
   color: white;
 }
 
