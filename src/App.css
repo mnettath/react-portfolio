@@ -10,12 +10,16 @@
   color: #e0b1cb;
 }
 
-.navbar-nav .nav-link, h3, .about-text {
+.navbar-nav .nav-link, h3 {
   color: white;
 }
 
 .navbar-toggler {
   background-color: white;
+}
+
+.about-text{
+  color:white;
 }
 
 .contact-form {
