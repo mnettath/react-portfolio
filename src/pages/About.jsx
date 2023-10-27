@@ -9,7 +9,7 @@ const About = () => {
         className="img-thumbnail img-fluid w-25 mb-3"
         alt="profile picture of Maya Nettath"
       ></img>
-      <div className="about-text">
+      <div className="about-text d-flex">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           facilisis libero congue nisi consequat cursus. Vestibulum ante ipsum
