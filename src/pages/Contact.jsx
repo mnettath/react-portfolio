@@ -141,7 +141,7 @@ const Contact = () => {
           <p className="error-text">Message is a required field.</p>
         )}
       </div>
-      <button type="submit" className="btn btn-light mb-2">
+      <button type="submit" className="btn btn-secondary mb-2">
         Submit
       </button>
       {errorMessage && (

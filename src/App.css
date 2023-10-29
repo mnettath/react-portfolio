@@ -1,38 +1,68 @@
+:root {
+  --darkPurple: #231942;
+  --mediumPurple: #5e548e;
+  --lightPurple: #be95c4;
+  --brightPurple: #be80c8;
+  --lightPink: #e0b1cb;
+  --brightPink:#db82b3;
+  --white: white;
+}
+
+#root {
+  background-color: var(--darkPurple);
+}
+
 .navbar,
 .footer,
 .navbar-brand {
-  background-color: #5e548e;
+  background-color: var(--mediumPurple);
   font-size: 1.5rem;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show, .resume-text a {
-  color: #e0b1cb;
+  color: var(--lightPink);
 }
 
 .navbar-nav .nav-link,
 h3 {
-  color: white;
+  color: var(--darkPurple);
 }
 
-.navbar-toggler {
-  background-color: white;
+.about-text, .resume-text, .contact-form, h3 {
+  color: var(--white);
 }
 
-.about-text, .resume-text {
-  color: white;
+.btn-primary {
+  background-color: var(--lightPink);
+  border-color: var(--darkPurple);
+  color: var(--darkPurple);
 }
 
-.contact-form {
-  color: white;
+.btn-secondary{
+  background-color: var(--lightPurple);
+  border-color:var(--darkPurple);
+  color: var(--darkPurple);
 }
 
-#root {
-  background-color: #231942;
+.btn-primary:hover{
+  background-color: var(--brightPink);
+  border-color: var(--darkPurple);
+  color: var(--darkPurple);
+}
+
+.btn-secondary:hover{
+  background-color: var(--brightPurple);
+  border-color:var(--darkPurple);
+  color: var(--darkPurple);
 }
 
 .footer-icon {
   padding-right: 10px;
   padding-left: 10px;
-  color: white;
+  color: var(--white);
+}
+
+.footer-icon:hover{
+  color: var(--darkPurple);
 }
