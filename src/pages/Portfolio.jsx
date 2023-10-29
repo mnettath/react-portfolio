@@ -2,6 +2,11 @@ import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 import EventfulSky from "../assets/images/EventfulSky.png";
+import LittleSiteOfHorrors from "../assets/images/LittleSiteOfHorrors.png";
+import JavaScriptQuiz from "../assets/images/CodeQuiz.png";
+import EmployeeCalendar from "../assets/images/EmployeeCalendar.png";
+import WeatherForecast from "../assets/images/WeatherApp.png";
+import NoteTaker from "../assets/images/NoteTaker.png";
 
 const Portfolio = () => {
   return (
@@ -37,7 +42,7 @@ const Portfolio = () => {
         <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "16rem", height: "25rem" }}>
             <img
-              src="src\assets\images\LittleSiteOfHorrors.png"
+              src={LittleSiteOfHorrors}
               className="card-img-top img-thumbnail"
               alt="little site of horrors homepage"
             />
@@ -65,7 +70,7 @@ const Portfolio = () => {
         <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "16rem", height: "25rem" }}>
             <img
-              src="src\assets\images\CodeQuiz.png"
+              src={JavaScriptQuiz}
               className="card-img-top img-thumbnail"
               alt="javascript quiz welcome page"
             />
@@ -91,7 +96,7 @@ const Portfolio = () => {
         <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "16rem", height: "25rem" }}>
             <img
-              src="src\assets\images\EmployeeCalendar.png"
+              src={EmployeeCalendar}
               className="card-img-top img-thumbnail"
               alt="employee calendar homepage"
             />
@@ -117,7 +122,7 @@ const Portfolio = () => {
         <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "16rem", height: "25rem" }}>
             <img
-              src="src\assets\images\WeatherApp.png"
+              src={WeatherForecast}
               className="card-img-top img-thumbnail"
               alt="weather forecast new york example"
             />
@@ -143,7 +148,7 @@ const Portfolio = () => {
         <div className="col-sm-6 col-md-4 col-lg-3">
           <div className="card" style={{ width: "16rem", height: "25rem" }}>
             <img
-              src="src\assets\images\NoteTaker.png"
+              src={NoteTaker}
               className="card-img-top img-thumbnail"
               alt="note taker homepage"
             />
