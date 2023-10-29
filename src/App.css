@@ -6,7 +6,7 @@
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
+.navbar-nav .nav-link.show, .resume-text a {
   color: #e0b1cb;
 }
 
@@ -19,7 +19,7 @@ h3 {
   background-color: white;
 }
 
-.about-text {
+.about-text, .resume-text {
   color: white;
 }
 
