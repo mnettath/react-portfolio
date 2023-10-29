@@ -12,7 +12,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\EventfulSky.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="eventful sky app concert page"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Eventful Sky Weather Planner</h5>
@@ -32,7 +32,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\LittleSiteOfHorrors.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="little site of horrors homepage"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">
@@ -54,7 +54,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\CodeQuiz.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="javascript quiz welcome page"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">JavaScript Quiz</h5>
@@ -74,7 +74,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\EmployeeCalendar.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="employee calendar homepage"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Employee Calendar</h5>
@@ -94,7 +94,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\WeatherApp.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="weather forecast new york example"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Weather Forecast</h5>
@@ -114,7 +114,7 @@ const Portfolio = () => {
             <img
               src="src\assets\images\NoteTaker.png"
               className="card-img-top img-thumbnail"
-              alt="..."
+              alt="note taker homepage"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">Note Taker</h5>
