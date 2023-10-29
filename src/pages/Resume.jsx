@@ -1,4 +1,5 @@
 import React from "react";
+import BootcampResume from "../assets/BootcampResume.pdf"
 
 const Resume = () => {
   return (
@@ -7,8 +8,8 @@ const Resume = () => {
       <div className="resume-text">
         <p className="mb-5">
           Download my resume&nbsp;
-          <a href="public\Bootcamp Resume.pdf" download>
-             here
+          <a href={BootcampResume} download>
+            here
           </a>
         </p>
         <h4>Front-end Proficiencies</h4>
