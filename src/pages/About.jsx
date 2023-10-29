@@ -7,7 +7,7 @@ const About = () => {
     <div className="mt-3 mx-3 vh-100">
       <h3 className="mb-3">About Me</h3>
       <img
-        src="public\assets\images\Maya_Profile.jpg"
+        src="images/Maya_Profile.jpg"
         className="img-thumbnail img-fluid w-25 mb-3"
         alt="profile picture of Maya Nettath"
       ></img>
