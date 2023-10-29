@@ -1,13 +1,14 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/css/bootstrap.min.css";
+import profilePic from "../assets/images/Maya_Profile.jpg";
 
 const About = () => {
   return (
     <div className="mt-3 mx-3 vh-100">
       <h3 className="mb-3">About Me</h3>
       <img
-        src="/assets/images/Maya_Profile.jpg"
+        src={profilePic}
         className="img-thumbnail img-fluid w-25 mb-3"
         alt="profile picture of Maya Nettath"
       ></img>
