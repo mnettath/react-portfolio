@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
   return (
@@ -9,22 +11,26 @@ const About = () => {
         className="img-thumbnail img-fluid w-25 mb-3"
         alt="profile picture of Maya Nettath"
       ></img>
-      <div className="about-text d-flex">
+      <div className="about-text d-flex flex-column">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          facilisis libero congue nisi consequat cursus. Vestibulum ante ipsum
-          primis in faucibus orci luctus et ultrices posuere cubilia curae;
-          Mauris arcu odio, ultrices bibendum tortor eu, posuere lobortis nisl.
-          Pellentesque auctor, magna at mattis posuere, orci nisl rhoncus elit,
-          ac tincidunt enim felis id felis. Cras ut tellus tellus. Nullam purus
-          enim, convallis eget accumsan ut, egestas in metus. Duis pulvinar
-          suscipit ultrices. Curabitur egestas dictum aliquam. In hac habitasse
-          platea dictumst. Quisque sollicitudin pharetra leo quis gravida. Fusce
-          iaculis lorem eget semper placerat. Donec fermentum risus cursus
-          sapien porttitor vehicula. Aliquam eget ligula et est sollicitudin
-          eleifend in id neque. Vestibulum a orci ac dui mattis convallis quis
-          non lectus. Sed eleifend at mi a volutpat. Proin aliquet iaculis erat,
-          a interdum justo ultricies ac.
+          Welcome! I'm Maya, a passionate and dedicated software developer based
+          in beautiful Denver, Colorado. In November 2023, I completed a Full
+          Stack Coding Bootcamp with the University of Denver. My journey here
+          began after 8 years of working in customer service became
+          unfulfilling. I became interested in pursuing tech after seeing the
+          positive impact that apps can have in simplifying day-to-day tasks for
+          customers. An initial exploration of UX design introduced me to the
+          role of Software Developers. Through a FreeCodeCamp certification, I
+          discovered my love for coding - a blend of creativity,
+          problem-solving, and attention to detail that resonated with me.
+        </p>
+        <p>
+          My toolkit includes an array of cutting-edge technologies, but my
+          absolute favorites are React.js, Express.js, MongoDB, and MySQL.
+        </p>
+        <p>
+          I am excited to further develop my skills and cannot wait for what the
+          future holds!
         </p>
       </div>
     </div>
