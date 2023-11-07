@@ -14,6 +14,8 @@ Users will automatically be shown the About page. They can click on the tabs Por
 
 ![Screenshot of Portfolio Homepage](./src/assets/images/PortfolioScreenshot.png)
 
+Link to deployed app: https://maya-nettath-portfolio.netlify.app/
+
 ## Credits
 
 N/A
